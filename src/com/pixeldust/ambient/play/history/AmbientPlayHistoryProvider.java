@@ -1,4 +1,4 @@
-package org.pixelexperience.ambient.play.history;
+package com.pixeldust.ambient.play.history;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -12,8 +12,8 @@ import android.text.TextUtils;
 public class AmbientPlayHistoryProvider extends ContentProvider {
     private static final int SONGS = 1;
     private static final int SONG = 2;
-    private static String MANAGE_HISTORY_PERMISSION = "org.pixelexperience.ambient.play.history.MANAGE_HISTORY";
-    private static final String AUTHORITY = "org.pixelexperience.ambient.play.history.provider";
+    private static String MANAGE_HISTORY_PERMISSION = "com.pixeldust.ambient.play.history.MANAGE_HISTORY";
+    private static final String AUTHORITY = "com.pixeldust.ambient.play.history.provider";
     private static final Uri CONTENT_URI =
             Uri.parse("content://" + AUTHORITY + "/songs");
     private static final String[] PROJECTION = {AmbientPlayHistoryDb.KEY_ID, AmbientPlayHistoryDb.KEY_TIMESTAMP, AmbientPlayHistoryDb.KEY_SONG, AmbientPlayHistoryDb.KEY_ARTIST};

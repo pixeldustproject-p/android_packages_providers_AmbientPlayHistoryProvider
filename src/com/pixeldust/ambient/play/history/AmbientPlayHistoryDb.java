@@ -1,4 +1,4 @@
-package org.pixelexperience.ambient.play.history;
+package com.pixeldust.ambient.play.history;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
